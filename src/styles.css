@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #fdfaf6;
+  color: #222;
+}
+
+/* NAVBAR */
+header {
+  background: #111;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #eee;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+button:hover {
+  color: #e67e22;
+}
+
+button.active {
+  border-bottom: 2px solid #e67e22;
+  color: #e67e22;
+}
+
+/* CONTENT */
+#content {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+/* HERO */
+.hero-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* TEXT */
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* BUTTON */
+.cta-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 12px 28px;
+  background: #e67e22;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background: #cf6d17;
+  transform: translateY(-2px);
+}
+
+/* MENU */
+.menu-item {
+  background: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+}
